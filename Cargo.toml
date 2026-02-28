@@ -5,6 +5,7 @@ edition = "2024"
 
 [dependencies]
 async-openai = { git = "https://github.com/dontwanttothink/async-openai-groq.git", features = ["responses", "chat-completion"] }
+dotenvy = "0.15.7"
 rand = "0.10.0"
 serde_json = "1.0.149"
 serenity = "0.12.5"
