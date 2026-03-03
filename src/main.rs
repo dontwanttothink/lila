@@ -1,5 +1,5 @@
 mod interaction;
-mod preferences;
+mod settings;
 
 use std::env;
 
@@ -14,7 +14,7 @@ use serenity::{all::UserId, async_trait};
 
 use interaction::{DeveloperMessage, maybe_reply, prompts::get_preamble_prompt};
 
-use crate::preferences::{DISCORD_TOKEN_VAR, LLM_API_BASE, LLM_TOKEN_VAR, MODEL};
+use crate::settings::{DISCORD_TOKEN_VAR, LLM_API_BASE, LLM_TOKEN_VAR, MODEL};
 
 type LLMClient = llm::Client<llm::config::OpenAIConfig>;
 

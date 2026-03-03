@@ -1,4 +1,4 @@
-use crate::preferences::{MESSAGE_CONTEXT_SIZE, MODEL, SUMMARIZATION_MODEL};
+use crate::settings::{MESSAGE_CONTEXT_SIZE, MODEL, SUMMARIZATION_MODEL};
 use std::error::Error;
 
 use async_openai as llm;
